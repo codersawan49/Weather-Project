@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Weather Project</h1>
+    <div class="mainBox">
+      <div class="inputBox">
+        <input placeholder="Enter your city..." type="text" name="city" id="city">
+        <button id="search" onclick="getWeatherData()"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+      </div>
+      <div class="data">
+        <div class="temp-wind">
+
+
+          <div class="temperature">
+            <p>Temperature</p>
+            <p id="temperature">...</p>
+          </div>
+
+
+          <div class="wind">
+            <p>Wind speed</p>
+            <p id="wind">...</p>
+          </div>
+        </div>
+
+        <div class="pres-hum">
+
+
+          <div class="pressure">
+            <p>Pressure</p>
+            <p id="pressure">...</p>
+          </div>
+
+
+          <div class="humidity">
+            <p>Humidity</p>
+            <p id="humidity">...</p>
+          </div>
+        </div>
+        <div class="over">
+
+
+          <div class="overall">
+            <p>Overall</p>
+            <p id="overall">...</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <p>Made By <a href="https://www.instagram.com/mr_rajpoot_3.0?igsh=bmpjaml5N2V5MTZ6">Sawan</a><br> 2024 © All Rights Reserved</p>
+    </footer>
+  </div>
+
+
+
+
+  <script src="main.js"></script>
+  <script>
+    alert('Not Responsive');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  flex-direction: column;
+
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 758px;
+  flex-direction: column;
+  width: 411px;
+  background-color: #222;
+}
+
+.container>h1 {
+  position: absolute;
+  color: grey;
+  top: 10%;
+
+}
+
+.container footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.mainBox {
+  width: 345px;
+  height: 420px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  background-image: radial-gradient(circle farthest-corner at 48.4% 47.5%, rgba(122, 183, 255, 1) 0%, rgba(21, 83, 161, 1) 90%);
+}
+
+.inputBox {
+  position: relative;
+  width: 85%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 30px;
+  height: 35px;
+  border-radius: 30px;
+  overflow: hidden;
+
+}
+
+.inputBox input {
+  position: absolute;
+  left: 0;
+  width: 78%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: whitesmoke;
+
+
+}
+
+.inputBox button {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: whitesmoke;
+  cursor: pointer;
+
+
+}
+
+.data {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  flex-direction: column;
+}
+
+.data>div {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20%;
+  font-size: 18px;
+
+}
+
+.data>div div {
+  height: 55px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.data div>div p:nth-child(1) {
+  font-weight: 600;
+  font-size: 18px;
+  width: 100%;
+  color: lightcyan;
+
+}
+
+.data div>div p:nth-child(2) {
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #424242;
+
+}
+
+footer {
+  margin-bottom: 10px;
+  text-align: center;
+  color: grey;
+}
+
+footer a {
+  text-decoration: none;
+  color: tomato;
+}
